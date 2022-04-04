@@ -14,4 +14,4 @@ Features:
 - Matches guess input to state for both capitalized and non capitalized inputs
 
 
-![](https://github.com/tudorobretin/Snake-Game/blob/readme/Snake.gif)
+![](https://github.com/tudorobretin/US-States-quiz-GUI/blob/master/US-States.gif)
