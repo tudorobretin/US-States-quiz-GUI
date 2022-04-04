@@ -1,3 +1,4 @@
+import time
 import turtle
 import pandas
 from mechanics import Mechanics
@@ -21,5 +22,9 @@ while mechanics.score < 50:
         break
     if mechanics.check_guess(guess=answer_state, states=states_list):
         mechanics.write_state(guess=answer_state, data=data)
+    else:
+        screen.textinput(title=f"{mechanics.score}/50 States Correct", prompt="Sorry, that's not a state! Press OK and try again :)")
+
+
 
 mechanics.print_missed_states(states_list)
