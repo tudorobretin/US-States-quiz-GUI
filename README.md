@@ -12,6 +12,7 @@ Features:
 - Computes a list of states the user did not know to provide future learning guidance
 - Scoring mechanism
 - Matches guess input to state for both capitalized and non capitalized inputs
+- Pop up message letting the user know that the guess was incorrect and they should try again
 
 
 ![](https://github.com/tudorobretin/US-States-quiz-GUI/blob/master/US-States.gif)
